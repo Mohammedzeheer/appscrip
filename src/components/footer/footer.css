@@ -1,0 +1,104 @@
+
+.footer {
+    /* background-color: #333; */
+    background-color: #121212;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: left; 
+    line-height: 15px;
+  }
+  
+  .footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin: 0 40px;
+    max-width: 200px;
+  }
+  
+  .footer-column h1 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-family: Raleway;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 5px;
+    font-size: small;
+  }
+  
+  .footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-column ul li a:hover{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .left-content{
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    /* display: flex; */
+    /* align-items: center; */
+  }
+
+  .right-content{
+    /* display: flex; */
+    align-items: center;
+  }
+
+  .symbol{
+    margin-top: -10px;
+    margin-left: -0.7rem;
+    width:8rem
+  }
+
+
+@media (max-width: 768px) {
+
+    .footer {
+        flex-direction: column; 
+        text-align: center; 
+      }
+
+    .footer-columns {
+        flex-direction: column;
+        align-items: center;
+      }
+ 
+    .right-content {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+  
+    .left-content h1 {
+      display: none;
+    }
+  
+    .company-info {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-column {
+      margin-bottom: 20px;
+    }
+  }
+  

@@ -1,0 +1,29 @@
+body{
+    color: grey;
+    height: 100vh;
+
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.custom{
+    width: 100%;
+    border: 2px black
+    
+}
+
+.custom th{
+    color: white;
+    background-color:grey;
+    padding: 6px;
+    border: 1px;
+}
+
+.custom td{
+    padding:8px
+
+}

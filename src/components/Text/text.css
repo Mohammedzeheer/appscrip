@@ -1,0 +1,133 @@
+.background3{
+    margin-top: -30px;
+    background-image: url('https://res.cloudinary.com/dah6aafle/image/upload/v1701599148/appscrip/bacground2_wvvvxo.png');
+    /* width:max-content */
+    width: 100vw; /* Set the width to 100% of the viewport width */
+    /* height: 100vh; Set the height to 100% of the viewport height */
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; /* Position the background image at the center */
+    background-repeat: no-repeat;
+}
+
+.Text_Container {
+    width: 100%;
+    justify-content: center;
+    /* height: 3rem;  */
+}
+
+.Text_Container h1 {
+    color: #D9D9D9;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 118% */
+}
+
+.TextContainer3 {
+    padding:100px;
+    /* margin: 5rem 2rem; */
+}
+
+.TextContainer {
+    margin: 5rem 2rem;
+}
+
+
+.heading {
+    color: #CAC4D2;
+    font-family: Roboto;
+    font-size: 2.6rem;
+    font-style: normal;
+    -webkit-line-clamp: 2;
+    /* max-height: 3em; */
+    letter-spacing: 1px;
+    word-spacing: 3px;
+
+}
+
+
+.paragrapgh {
+    color: rgba(137, 117, 156, 0.70);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.joinnow {
+    margin: 1.5rem;
+    color: white;
+    width: 178px;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: linear-gradient(93deg, #c732e8 6.38%, #7700D4 99.69%);
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+}
+
+.joinnow:hover{
+    background: linear-gradient(80deg, #bd0fb2 30.38%, #7700D4 95.69%);
+   
+}
+
+
+.percent {
+    background: linear-gradient(93deg, #c732e8 6.38%, #7700D4 99.69%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 900;
+}
+
+@media (max-width: 768px) {
+
+    .paragrapgh {
+        color: rgba(137, 117, 156, 0.70);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        margin: 20px;
+    }
+
+    .heading {
+        color: #CAC4D2;
+        font-family: Roboto;
+        font-size: 1rem;
+        font-style: normal;
+        -webkit-line-clamp: 2;
+        /* max-height: 3em; */
+    }
+
+    .joinnow {
+        width: 118px;
+        background: linear-gradient(93deg, #7700D4 10.38%, #b31cd4 99.69%);
+    }
+
+    .elevate {
+        background: linear-gradient(93deg, #c732e8 6.38%, #7700D4 99.69%);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    .TextContainer3 {
+        /* padding:100px; */
+        padding: 5rem 1rem;
+    }
+
+    .percent{
+        font-size: 20px;
+    }
+
+    .Text_Container h1 {
+        font-size: 30px;
+
+    }
+}

@@ -1,0 +1,44 @@
+.groupphoto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 450px;
+        background-image: url('https://res.cloudinary.com/dah6aafle/image/upload/v1701443302/appscrip/4._Banner_-_Full_width_pu1grm.png');
+        background-size: cover;
+      }
+  
+  .groupphoto img {
+    width: 100%;
+    /* height: auto;  */
+    display: block; 
+  }
+
+  .photo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    background-image: url('https://res.cloudinary.com/dah6aafle/image/upload/v1701532374/appscrip/Content_fkw801.png');
+    background-size: cover;
+  }
+
+  .paragrapgh1 {
+    color:rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+    @media (max-width: 768px) {
+
+      .paragrapgh1 {
+          color:  rgba(255, 255, 255, 0.70);
+          text-align: center;
+          font-family: Roboto;
+          font-size: 11px;
+          font-weight: 200;
+      }
+    }
